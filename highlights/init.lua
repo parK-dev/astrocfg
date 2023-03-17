@@ -1,8 +1,22 @@
 -- this table overrides highlights in all themes
 return {
+  -- Normal
+  Normal = { bg = "none" },
+  NormalFloat = { bg = "none" },
+  NormalNC = { bg = "none" },
+  FloatBorder = { bg = "none" },
+  -- WinBar
+  WinBar = { bg = "none" },
+  WinBarNC = { bg = "none" },
+  WhichKeyFloat = { bg = "none" },
   -- Telescope
   TelescopeBorder = { bg = "none" },
   TelescopeNormal = { bg = "none" },
+  -- Diagnosis
+  DiagnosticVirtualTextHint = { fg = "#C8D7CE", bg = "none" },
+  DiagnosticVirtualTextWarn = { fg = "yellow", bg = "none" },
+  DiagnosticVirtualTextInfo = { fg = "yellow", bg = "none" },
+  DiagnosticVirtualTextError = { fg = "red", bg = "none" },
   -- NeoTree
   NeoTreeNormal = { bg = "none" },
   NeoTreeNormalNC = { bg = "none" },
@@ -18,9 +32,11 @@ return {
   -- Cursor
   CursorLineNr = { bg = "none" },
   CursorLine = { bg = "none" },
+  ColorColumn = { bg = "none" },
   -- Search
   Search = { fg = 'red' },
   IncSearch = { fg = 'red' },
+  -- Pmenu
   Pmenu = { bg = "none" },
   PmenuSel = { bg = "none" },
   PmenuSbar = { bg = "none" },
