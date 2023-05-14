@@ -15,7 +15,6 @@ return {
         "dockerls",
         "jsonls",
         "marksman",
-        "sqls",
         "svelte",
         "tailwindcss",
 
@@ -27,7 +26,7 @@ return {
     "jay-babu/mason-null-ls.nvim",
     -- overrides `require("mason-null-ls").setup(...)`
     opts = {
-      -- ensure_installed = { "prettier", "stylua" },
+      ensure_installed = { "prettier", "stylua" },
     },
   },
   {
