@@ -4,30 +4,40 @@ return {
   Normal = { bg = "none" },
   NormalFloat = { bg = "none" },
   NormalNC = { bg = "none" },
+  NormalSB = { bg = "none" },
   FloatBorder = { bg = "none" },
+  FloatTitle = { fg = "#F2F3F5", bg = "none" },
   -- WinBar
   WinBar = { bg = "none" },
+  WinSeparator = { fg = "#F2F3F5", bg = "none" },
   WinBarNC = { bg = "none" },
   WhichKeyFloat = { bg = "none" },
   -- Telescope
   TelescopeBorder = { bg = "none" },
   TelescopeNormal = { bg = "none" },
   -- Diagnosis
-  DiagnosticVirtualTextHint = { fg = "#E0E1E4", bg = "none" },
+  DiagnosticVirtualTextHint = { fg = "#F2F3F5", bg = "none" },
   DiagnosticVirtualTextWarn = { fg = "#e0af68", bg = "none" },
   DiagnosticVirtualTextInfo = { fg = "#9ece6a", bg = "none" },
   DiagnosticVirtualTextError = { fg = "#bd2c00", bg = "none" },
   -- NeoTree
   NeoTreeNormal = { bg = "none" },
   NeoTreeNormalNC = { bg = "none" },
+  NeoTreeTabInactive = { bg = "none" },
+  NeoTreeTabSeperatorActive = { fg = "#F2F3F5", bg = "none" },
+  NeoTreeTabSeperatorInactive = { fg = "#F2F3F5", bg = "none" },
+  NvimTreeTabSeperatorActive = { fg = "#F2F3F5", bg = "none" },
+  NvimTreeTabSeperatorInactive = { fg = "#F2F3F5", bg = "none" },
+  MiniTabLineFill = { fg = "#F2F3F5", bg = "none" },
   -- Spectre
-  DiffChange = { fg = "#E0E1E4", bg = "#050a30" },
-  DiffDelete = { fg = "#E0E1E4", bg = "#bd2c00" },
+  DiffChange = { fg = "#F2F3F5", bg = "#050a30" },
+  DiffDelete = { fg = "#F2F3F5", bg = "#bd2c00" },
   -- StatusLine
-  StatusLine = { bg = "none" },
-  StatusLineNC = { bg = "none" },
-  StatusLineTerm = { bg = "none" },
-  StatusLineTermNC = { bg = "none" },
+  StatusLine = { fg = "#F2F3F5", bg = "none" },
+  StatusLineNC = { fg = "#F2F3F5", bg = "none" },
+  StatusLineTerm = { fg = "#F2F3F5", bg = "none" },
+  StatusLineTermNC = { fg = "#F2F3F5", bg = "none" },
+  VertSplit = { fg = "#F2F3F5", bg = "none" },
   -- QuickFixLine
   QuickFixLine = { bg = "none" },
   -- TabLine
