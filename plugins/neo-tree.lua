@@ -6,7 +6,7 @@ return {
   init = function() vim.g.neo_tree_remove_legacy_commands = true end,
   opts = {
     auto_clean_after_session_restore = true,
-    close_if_last_window = false,
+    close_if_last_window = true,
     sources = { "filesystem" },
     source_selector = {
       winbar = false,
