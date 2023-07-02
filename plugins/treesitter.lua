@@ -5,6 +5,7 @@ return {
       "c",
       "lua",
       "vim",
+      "wgsl",
       "help",
       "query",
       "html",

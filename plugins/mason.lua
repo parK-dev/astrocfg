@@ -17,7 +17,7 @@ return {
         "marksman",
         "svelte",
         "tailwindcss",
-
+        "clangd",
       },
     },
   },

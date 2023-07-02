@@ -4,5 +4,5 @@ return {
   opts = {
     style = "night",
     transparent = true,
-  }
+  },
 }
