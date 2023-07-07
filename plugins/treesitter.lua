@@ -11,7 +11,6 @@ return {
       "html",
       "json",
       "typescript",
-      "svelte",
       "rust",
       "yaml",
       "tsx",
