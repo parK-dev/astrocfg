@@ -16,6 +16,8 @@ return {
       "tsx",
       "toml",
       "sql",
+      "glimmer",
+      "svelte",
       "regex",
       "javascript",
       "dockerfile",
